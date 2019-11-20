@@ -1,0 +1,36 @@
+.main-nav a {
+  opacity: 0.5;
+  color: #f2f2f2;
+  font-size: 2.5rem;
+}
+
+.main-nav a:hover {
+  color: white;
+  opacity: 1;
+}
+
+.main-nav a.active {
+  color: white;
+  opacity: 1;
+}
+
+.main-nav a.icon {
+  display: none;
+  padding: 5px;
+}
+
+.menuLink {
+  color: #FFFFFF;
+  font-family: Canela;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 2.9rem;
+  text-decoration: none;
+  margin-left: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .main-nav li:first-child > a {
+    display: none;
+  }
+}

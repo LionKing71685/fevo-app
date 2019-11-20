@@ -1,0 +1,17 @@
+.logo-wrapper {
+  display: flex;
+  width: 195px;
+  height: 100%;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+a {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    display: hidden;
+  }
+}

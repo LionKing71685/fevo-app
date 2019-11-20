@@ -1,0 +1,92 @@
+.main-container{
+  width: 100vw;
+  height: 100vh;
+}
+
+div.bg-black {
+  background: black;
+}
+
+div.bg-white {
+  background: white;
+}
+
+div.img-page {
+	position: relative;
+}
+
+div.img-page::after {
+	content: "";
+  background: url(../assets/img/back.jpg) no-repeat;
+	background-size: 100% 100%;
+	top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+	position: absolute;
+  z-index: -1;
+  background-position-x: center;
+}
+
+.page-wrapper {
+  width: 100%;
+  height: calc(100vh - 88px);
+  display: flex;
+  align-items: center;
+}
+
+.content-center {
+  margin: 0 auto;
+}
+
+.page-title {
+  height: 11.4rem;
+  color: #FFFFFF;
+  font-family: Canela;
+  font-size: 7rem;
+  font-weight: 300;
+  line-height: 10.4rem;
+  margin: 0 auto 4rem auto;
+  text-align: center;
+}
+
+.page-description {
+	color: #FFFFFF;
+	font-family: "Founders Grotesk Text";
+}
+
+div.no-img-page {
+  padding: 4.7rem 8.2rem 6rem 8.2rem;
+}
+
+.list-item-lg-label {
+	font-size: 3.5rem;
+  line-height: 3.2rem;
+}
+
+.list-item-label {
+	font-size: 2.5rem;
+  line-height: 3.2rem;
+}
+
+.list-item-desc {
+	font-size: 2.5rem;
+  line-height: 3.2rem;
+  white-space: normal;
+}
+
+/* iPad Pro */
+@media screen
+  and (max-width: 1024px)
+	and (max-height: 1366px) {
+  .list-item-desc {
+    font-size: 3.5rem;
+    line-height: 3.8rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  div.img-page::after {
+    background-size: auto 100%;
+  }
+}

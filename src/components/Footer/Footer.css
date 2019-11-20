@@ -1,0 +1,24 @@
+.footer-wrapper {
+  display: flex;
+  height: 8.8rem;
+  background: #22252B;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.footer-label {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: white;
+  margin-right: 2rem;
+}
+
+.footer-label a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-label a:hover {
+  text-decoration: underline;
+}
